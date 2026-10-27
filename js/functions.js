@@ -1,6 +1,4 @@
-const checkString = (text, length) => {
-  return text.length <= length;
-};
+const checkString = (text, length) => text.length <= length;
 
 checkString('проверяемая строка', 20);
 checkString('проверяемая строка', 18);
